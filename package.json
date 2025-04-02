@@ -1,0 +1,26 @@
+{
+  "name": "software-planning-tool",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol (MCP) server for software development planning",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "ts-node src/index.ts",
+    "inspector": "mcp-inspector"
+  },
+  "keywords": [
+    "mcp",
+    "planning",
+    "software-development"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/server": "^0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
